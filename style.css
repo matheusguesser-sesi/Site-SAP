@@ -112,22 +112,22 @@ body{
 
 
 nav {
+
+}
+
+
+#body1 {
+    margin: 0;
+}
+
+#barra {
+    background-color: rgb(214, 208, 208);
+    width: 100vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    padding: 0;
     display: flex;
     align-items: center;
     justify-content: space-around;
 
-    background-color: rgb(214, 208, 208);
-    background-size: cover;
-    padding: 0 20px;
-    height: -20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-}
-
-#body1{
-    margin:0;
-}
-#barra {
-    font-size: 35px ;
-    padding: 0;
 }
