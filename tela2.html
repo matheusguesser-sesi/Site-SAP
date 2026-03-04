@@ -1,38 +1,119 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sap - tela</title>
+    <title>Site 2</title>
     <link rel="stylesheet" href="style.css">
+    <link href="assets/" rel="stylesheet">
 </head>
 
 <body>
+
     <div class="container">
-        <div class="esquerda">
-            <div class="blocos_esquerda">
-
+        <div class="card hero">
+            <div class="hero-left">
+                <div class="robot"></div>
+                <div>
+                    <h2>Olá, tudo bem?</h2>
+                    <h3>Como posso ajudar hoje?</h3>
+                    <button class="btn-light">Fale comigo!</button>
+                </div>
             </div>
-            <div class="blocos_esquerda">
 
-            </div>
-            <div class="blocos_esquerda">
-
-            </div>
-
-        </div>
-        <div class="direita">
-            <div class="blocos_direita">
-
-            </div>
-            <div class="blocos_direita">
-
-            </div>
-            <div class="blocos_direita">
-
+            <div class="hero-buttons">
+                <button class="btn-primary">QUERO COMPRAR MATERIAL</button>
+                <button class="btn-primary">QUERO COMPRAR SERVIÇO</button>
+                <button class="btn-primary">CONSULTAR FLUXO DE PROCESSOS</button>
+                <button class="btn-primary">STATUS DAS MINHAS REQUISIÇÕES</button>
+                <button class="btn-primary">NÃO SEI AO CERTO, ME AJUDE</button>
             </div>
         </div>
+        <div class="card small-card">
+            <div class="card-header">
+                <h4>Status de pedidos recentes</h4>
+                <a href="#">Ver todos pedidos</a>
+            </div>
+            <table>
+                <tr>
+                    <th>Nº Req.</th>
+                    <th>Data</th>
+                    <th>Valor</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                    <td>#125</td>
+                    <td>29/04/2020</td>
+                    <td>R$ 1250,50</td>
+                    <td><span class="status green">Processado</span></td>
+                </tr>
+                <tr>
+                    <td>#125</td>
+                    <td>29/04/2020</td>
+                    <td>R$ 1250,50</td>
+                    <td><span class="status yellow">Análise</span></td>
+                </tr>
+                <tr>
+                    <td>#125</td>
+                    <td>29/04/2020</td>
+                    <td>R$ 1250,50</td>
+                    <td><span class="status red">Cancelado</span></td>
+                </tr>
+            </table>
+        </div>
+        <div class="card products">
+            <div class="card-header">
+                <h4>Baseado em suas últimas compras</h4>
+                <a href="#">Ver todas as recomendações</a>
+            </div>
+
+            <div class="product-list">
+                <div class="product"></div>
+                <div class="product"></div>
+                <div class="product"></div>
+                <div class="product"></div>
+                <div class="product"></div>
+            </div>
+        </div>
+        <div class="card small-card">
+            <div class="card-header">
+                <h4>Mensagens e alertas</h4>
+                <a href="#">Ver todas mensagens</a>
+            </div>
+
+            <div class="message">
+                <div class="avatar"></div>
+                <div>
+                    <strong>José da Silva</strong>
+                    <p>Verificar pagamento do fornecedor apto</p>
+                </div>
+            </div>
+
+            <div class="message">
+                <div class="avatar yellow"></div>
+                <div>
+                    <strong>Márcio José</strong>
+                    <p>Nova nota fiscal entregue, consegue me ajudar?</p>
+                </div>
+            </div>
+        </div>
+        <div class="card timeline-card">
+            <div class="card-header">
+                <h4>Status das últimas requisições</h4>
+                <a href="#">Ver todos processos</a>
+            </div>
+
+            <div class="timeline">
+                <div class="step done"></div>
+                <div class="step done"></div>
+                <div class="step pending"></div>
+                <div class="step"></div>
+                <div class="step"></div>
+            </div>
+        </div>
+
     </div>
+
 </body>
 
 </html>
