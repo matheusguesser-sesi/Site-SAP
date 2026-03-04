@@ -1,113 +1,119 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sap - tela</title>
+    <title>Dashboard Compras</title>
     <link rel="stylesheet" href="style.css">
+    <link href="assets/" rel="stylesheet">
 </head>
 
 <body>
+
     <div class="container">
         <div class="card hero">
             <div class="hero-left">
-                <div class="robo">
+                <div class="robot"></div>
                 <div>
-                    <h2> olá, tudo bem?</h2>
-                    <h3> Como posso ajudar hoje?</h3>
-                    <button class="botao-light">Fale comigo!</button>
-                </div>    
+                    <h2>Olá, tudo bem?</h2>
+                    <h3>Como posso ajudar hoje?</h3>
+                    <button class="btn-light">Fale comigo!</button>
                 </div>
-                <div class="hero-botao">
-                    <button class="botaoprimario">Quero comprar material</button>
-                    <button class="botaoprimario">Quero comprar serviço</button>
-                    <button class="botaoprimario">Consultar fluxo de processos</button>
-                    <button class="botaoprimario">Status das minhas requisições</button>
-                    <button class="botaoprimario">Não sei ao certo, me ajude</button>
-                </div>
-            </div>
-            <div class="card small-card">
-                <div class="card-header">
-                    <h4>Status de pedidos recentes</h4>
-                    <a href="#">Ver todos os pedidos</a>
-                </div>
-
-                <table>
-                    <tr>
-                        <th>Nº requisições</th>
-                        <th>Data</th>
-                        <th>Valor</th>
-                        <th>Status</th>
-                    </tr>
-                    <tr>
-                        <td>#125</td>
-                        <td>04/03/2026</td>
-                        <td>R$ 1250,00R$</td>
-                        <td><span class="status verde">processado</span></td>
-                    </tr>
-                    <tr>
-                        <td>#125</td>
-                        <td>04/03/2026</td>
-                        <td>R$ 1250,00R$</td>
-                        <td><span class="status amarelo">análise</span></td>
-                    </tr>
-                    <tr>
-                        <td>#125</td>
-                        <td>04/03/2026</td>
-                        <td>R$ 1250,00R$</td>
-                        <td><span class="status vermelho">cancelado</span></td>
-                    </tr>
-                </table>
             </div>
 
-            <div class="card-produtos">
-                <div class="card-header">
-                    <h4>Baseado em suas últimas compras</h4>
-                    <a href="#">Ver Todas as recomendações</a>
-                </div>
-                <div class="lista-produtos">
-                    <div class="produtos"></div>
-                    <div class="produtos"></div>
-                    <div class="produtos"></div>
-                    <div class="produtos"></div>
-                    <div class="produtos"></div>
-                </div>
-            </div>
-            <div class="card small-card">
-                <div class="card-header">
-                    <h4>Mensagens e alertas</h4>
-                    <a href="#">Ver todas as Mensagens</a>
-                </div>
-                <div class="mensagem">
-                    <div class="avatar"></div>
-                    <div>
-                        <strong>José da silva</strong>
-                        <p>Verificar pagamento do fornecedor</p>
-                    </div>
-                </div>
-
-                <div class="mensagem">
-                    <div class="avatar amarelo"></div>
-                    <div>
-                        <strong>Marciso José</strong>
-                        <p>Nova nota fiscal entregue, consegue me ajudar?</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card timeline-card">
-                <div class="card-header">
-                    <h4>Status das ultimas requisições</h4>
-                    <a href="#">Ver todos os processos</a>
-                </div>
-            <div class="timeline">
-                <div class="etapa concluida"></div>
-                <div class="etapa concluida"></div>
-                <div class="etapa pendente"></div>
-                <div class="etapa"></div>
-                <div class="etapa"></div>
+            <div class="hero-buttons">
+                <button class="btn-primary">QUERO COMPRAR MATERIAL</button>
+                <button class="btn-primary">QUERO COMPRAR SERVIÇO</button>
+                <button class="btn-primary">CONSULTAR FLUXO DE PROCESSOS</button>
+                <button class="btn-primary">STATUS DAS MINHAS REQUISIÇÕES</button>
+                <button class="btn-primary">NÃO SEI AO CERTO, ME AJUDE</button>
             </div>
         </div>
-    </div>    
+        <div class="card small-card">
+            <div class="card-header">
+                <h4>Status de pedidos recentes</h4>
+                <a href="#">Ver todos pedidos</a>
+            </div>
+            <table>
+                <tr>
+                    <th>Nº Req.</th>
+                    <th>Data</th>
+                    <th>Valor</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                    <td>#125</td>
+                    <td>29/04/2020</td>
+                    <td>R$ 1250,50</td>
+                    <td><span class="status green">Processado</span></td>
+                </tr>
+                <tr>
+                    <td>#125</td>
+                    <td>29/04/2020</td>
+                    <td>R$ 1250,50</td>
+                    <td><span class="status yellow">Análise</span></td>
+                </tr>
+                <tr>
+                    <td>#125</td>
+                    <td>29/04/2020</td>
+                    <td>R$ 1250,50</td>
+                    <td><span class="status red">Cancelado</span></td>
+                </tr>
+            </table>
+        </div>
+        <div class="card products">
+            <div class="card-header">
+                <h4>Baseado em suas últimas compras</h4>
+                <a href="#">Ver todas as recomendações</a>
+            </div>
+
+            <div class="product-list">
+                <div class="product"></div>
+                <div class="product"></div>
+                <div class="product"></div>
+                <div class="product"></div>
+                <div class="product"></div>
+            </div>
+        </div>
+        <div class="card small-card">
+            <div class="card-header">
+                <h4>Mensagens e alertas</h4>
+                <a href="#">Ver todas mensagens</a>
+            </div>
+
+            <div class="message">
+                <div class="avatar"></div>
+                <div>
+                    <strong>José da Silva</strong>
+                    <p>Verificar pagamento do fornecedor apto</p>
+                </div>
+            </div>
+
+            <div class="message">
+                <div class="avatar yellow"></div>
+                <div>
+                    <strong>Márcio José</strong>
+                    <p>Nova nota fiscal entregue, consegue me ajudar?</p>
+                </div>
+            </div>
+        </div>
+        <div class="card timeline-card">
+            <div class="card-header">
+                <h4>Status das últimas requisições</h4>
+                <a href="#">Ver todos processos</a>
+            </div>
+
+            <div class="timeline">
+                <div class="step done"></div>
+                <div class="step done"></div>
+                <div class="step pending"></div>
+                <div class="step"></div>
+                <div class="step"></div>
+            </div>
+        </div>
+
+    </div>
+
 </body>
 
 </html>
