@@ -18,7 +18,7 @@
                     <button class="botao-light">Fale comigo!</button>
                 </div>    
                 </div>
-                <div class="botao">
+                <div class="hero-botao">
                     <button class="botaoprimario">Quero comprar material</button>
                     <button class="botaoprimario">Quero comprar serviço</button>
                     <button class="botaoprimario">Consultar fluxo de processos</button>
@@ -26,7 +26,7 @@
                     <button class="botaoprimario">Não sei ao certo, me ajude</button>
                 </div>
             </div>
-            <div class="card pequena">
+            <div class="card small-card">
                 <div class="card-header">
                     <h4>Status de pedidos recentes</h4>
                     <a href="#">Ver todos os pedidos</a>
@@ -43,19 +43,19 @@
                         <td>#125</td>
                         <td>04/03/2026</td>
                         <td>R$ 1250,00R$</td>
-                        <td>Aprovado</td>
+                        <td><span class="status verde">processado</span></td>
                     </tr>
                     <tr>
                         <td>#125</td>
                         <td>04/03/2026</td>
                         <td>R$ 1250,00R$</td>
-                        <td>Análise</td>
+                        <td><span class="status amarelo">análise</span></td>
                     </tr>
                     <tr>
                         <td>#125</td>
                         <td>04/03/2026</td>
                         <td>R$ 1250,00R$</td>
-                        <td>Cancelado</td>
+                        <td><span class="status vermelho">cancelado</span></td>
                     </tr>
                 </table>
             </div>
@@ -73,7 +73,7 @@
                     <div class="produtos"></div>
                 </div>
             </div>
-            <div class="card pequena">
+            <div class="card small-card">
                 <div class="card-header">
                     <h4>Mensagens e alertas</h4>
                     <a href="#">Ver todas as Mensagens</a>
@@ -94,7 +94,12 @@
                     </div>
                 </div>
             </div>
-            <div class="linhadotempo">
+            <div class="card timeline-card">
+                <div class="card-header">
+                    <h4>Status das ultimas requisições</h4>
+                    <a href="#">Ver todos os processos</a>
+                </div>
+            <div class="timeline">
                 <div class="etapa concluida"></div>
                 <div class="etapa concluida"></div>
                 <div class="etapa pendente"></div>

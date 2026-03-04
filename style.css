@@ -36,34 +36,92 @@ s
     align-items: center;
 }
 
+.robo{
+    width: 90px;
+    height: 90px;
+    background: #fff;
+    border-radius: 50%;
+}
 
+.hero h2{
+    color: #1b3c74;
+}
 
+.hero h3{
+    margin: 10px 0;
+    color: #1b3c74;
+}
 
+.botao-light{
+    background: white;
+    border: none;s
+    padding: 10px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+}
 
+.hero-botao{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
+.botaoprimario{
+    background: #1b3c74;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+}
 
+.small-card table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px
+}
 
+.small-card th{
+    text-align: left;
+    padding-bottom: 10px;
+}
 
+.small-card td{
+    padding: 8px 0;
+}
 
+.status {
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    color: white;
+}
 
+.verde {background: #39b872;}
+.amarelo{background: #f2b600;}
+.vermelho{background: #e74c3c;}
 
+.card-header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
 
+.card-header h4{
+    color: #1b3c74;
+}
 
+.lista-produtos{
+    display: flex;
+    gap: 15px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.produtos{
+    width: 120px;
+    height: 140px;
+    background: white;
+    border-radius: 12px;
+}
 
 
 
