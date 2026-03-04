@@ -89,13 +89,201 @@ body{
 
 
 
-body{
-    margin:0;
-}
-#barra {
-    font-size: 35px ;
-    padding: 0;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -120,7 +308,7 @@ nav {
     margin: 0;
 }
 
-#barra {
+.barra {
     background-color: rgb(214, 208, 208);
     width: 100vw;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -129,5 +317,38 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 0px;
 
 }
+
+footer {
+    padding: 10px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.linhaa {
+
+    height: 20px;
+    width: 100%;
+    background-color: #ffd700;
+}
+
+#botoes {
+    background-color: rgb(214, 208, 208);
+    display: flex;
+    gap: 20px;
+    height: 20p;
+
+
+}
+
+.btn0 {
+    margin-left: 20px;
+}
+
+button {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
