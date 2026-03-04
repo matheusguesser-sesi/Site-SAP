@@ -1,15 +1,40 @@
-body{
+*{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+body{
+    background: #e6eef8;
 }
 .container{
-    display: flex;
-    
+    width: 1400px;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+}
+s
+.card{
+    background: #dbe8f7;
+    padding: 25px;
+    border-radius: 20px;
 }
 
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-
-
+.hero-left{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
 
 
 
